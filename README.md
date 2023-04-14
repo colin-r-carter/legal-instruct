@@ -18,3 +18,6 @@ Moreover, it is important that this dataset is openly available and allows for c
 * QnA (simple or retrieval augmented)
 * Summarization
 * ...
+
+## General Instruction Datasets:
+[(Multilingual) Dataset for Dolly 2.0 from Databricks by Argila on Huggingface](https://huggingface.co/datasets/argilla/databricks-dolly-15k-multilingual)
