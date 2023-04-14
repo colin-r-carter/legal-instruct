@@ -6,3 +6,8 @@ Instruction finetuning large language models (LLMs) has shown huge potential. Sm
 Creating a legal-instruct dataset based on Swiss data is essential for finetuning large language models (LLMs) that are used in the (swiss) legal industry. This dataset would contain legal instructions in a structured and organized format, allowing LLMs to learn the language and nuances of our legal system and legal tasks. By having access to this comprehensive dataset, LLMs would be able to better understand legal language and improve their ability to accurately perform legal tasks.
 
 Moreover, it is important that this dataset is openly available and allows for commercial use. By doing so, it would allow for broad implementation of the dataset and ensure that every open-source LLM could benefit from its use. This would not only benefit legal professionals (as many models could use that trainingdata freely) but also companies developing LLMs for the legal industry. An openly available legal-instruct dataset would also encourage collaboration and innovation in the field, ultimately leading to better outcomes for all.
+
+
+## Goal of the challenge
+* Create and release a legal-instruct dataset to huggingface with an open license.
+* Finetune a LLM with the created dataset.
