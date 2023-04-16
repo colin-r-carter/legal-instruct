@@ -19,7 +19,7 @@ Moreover, it is important that this dataset is openly available and allows for c
 * Summarization
 * ...
 
-## General Instruction Datasets:
-[(Multilingual) Dataset for Dolly 2.0 from Databricks by Argila on Huggingface](https://huggingface.co/datasets/argilla/databricks-dolly-15k-multilingual)
+## General (multilingual) Instruction Datasets:
+[Dataset for Dolly 2.0 from Databricks by Argila on Huggingface](https://huggingface.co/datasets/argilla/databricks-dolly-15k-multilingual)
 
-[OpenAssistant Conversations Dataset (OASST1)](https://huggingface.co/datasets/OpenAssistant/oasst1)
+[OpenAssistant Conversations Dataset (OASST1) by Open Assistant on Huggingface](https://huggingface.co/datasets/OpenAssistant/oasst1)
