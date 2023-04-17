@@ -1,6 +1,6 @@
 # legal-instruct
 
-*Idea behind the challenge*: 
+*💡 Idea behind the challenge*: 
 
 Instruction finetuning large language models (LLMs) has shown huge potential (see InstructGPT by OpenAI[^1]) this has further been improved by synthetically generated instructions using the [self instruct](https://arxiv.org/abs/2212.10560)[^2] method (see for example the [Stanford Alpaca model](https://crfm.stanford.edu/2023/03/13/alpaca.html). By instruction tuning smaller LLMs, those models are able to solve complex tasks. Most LLMs have some legal texts in their trainingdata, but will often mix different legal sources in their outputs (especially for Switzerland this is an issue, because German texts for the Swiss legal system will often be mixed with legal information from Austria and Germany, for French and Italian it's the same issue). Generating synthetic data is (apart from API usage limitations by for example OpenAI) therefore also not possible in the legal domain, as those _mixtures_ would be present in the generated data as well. 
 
@@ -9,7 +9,7 @@ Creating a legal-instruct dataset based on Swiss data is essential for finetunin
 Moreover, it is important that this dataset is openly available and allows for commercial use (the example of Alpaca is intended only for academic research and commercial use is prohibited). By creating an openly available and usable dataset, it would allow for broad implementation of the dataset and ensure that every open-source LLM could benefit from its use. This would not only benefit legal professionals (as many models could use that trainingdata freely) but also companies developing LLMs for the legal industry. An openly available legal-instruct dataset would also encourage collaboration and innovation in the field, ultimately leading to better outcomes for all.
 
 
-## Goal of the challenge
+## 🎯 Goal of the challenge
 * Create and release a legal-instruct dataset to huggingface with an open license.
 * Finetune a LLM with the created dataset.
 
@@ -19,6 +19,18 @@ Moreover, it is important that this dataset is openly available and allows for c
 * QnA (simple or retrieval augmented)
 * Summarization
 * ...
+
+## Roadmap
+
+This will have to be discussed at the hackathon. 
+
+- [-] Simple platform to collect data (already in progess).
+- [] Datacollection. 
+- [] Define a (very) simple benchmark to see what outputs would be considered as _good_ or _bad_.
+- [] Finetuning an LLM (LoRA finetuning, as  this could probably be acheived in the limitted time of the hackathon).
+- [] Review of the model.
+
+# Available Data
 
 ## General (multilingual) Instruction Datasets:
 [Dataset for Dolly 2.0 from Databricks by Argila on Huggingface](https://huggingface.co/datasets/argilla/databricks-dolly-15k-multilingual)
