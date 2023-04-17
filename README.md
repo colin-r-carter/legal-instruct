@@ -28,6 +28,6 @@ Moreover, it is important that this dataset is openly available and allows for c
 ---
 
 # Citations
-[^1] Ouyang, Long, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, et al. *‘Training Language Models to Follow Instructions with Human Feedback’*. ArXiv [Cs.CL], 2022. arXiv. [http://arxiv.org/abs/2203.02155](http://arxiv.org/abs/2203.02155). And [OpenAI Blog (last visitted on Mon. 17th of April 2023)](https://openai.com/research/instruction-following)
+[^1]: Ouyang, Long, Jeff Wu, Xu Jiang, Diogo Almeida, Carroll L. Wainwright, Pamela Mishkin, Chong Zhang, et al. *‘Training Language Models to Follow Instructions with Human Feedback’*. ArXiv [Cs.CL], 2022. arXiv. [http://arxiv.org/abs/2203.02155](http://arxiv.org/abs/2203.02155). And [OpenAI Blog (last visitted on Mon. 17th of April 2023)](https://openai.com/research/instruction-following)
 
-[^2] Wang, Yizhong, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, and Hannaneh Hajishirzi. ‘Self-Instruct: Aligning Language Model with Self Generated Instructions’. ArXiv [Cs.CL], 2022. arXiv. [http://arxiv.org/abs/2212.10560](http://arxiv.org/abs/2212.10560).
+[^2]: Wang, Yizhong, Yeganeh Kordi, Swaroop Mishra, Alisa Liu, Noah A. Smith, Daniel Khashabi, and Hannaneh Hajishirzi. ‘Self-Instruct: Aligning Language Model with Self Generated Instructions’. ArXiv [Cs.CL], 2022. arXiv. [http://arxiv.org/abs/2212.10560](http://arxiv.org/abs/2212.10560).
