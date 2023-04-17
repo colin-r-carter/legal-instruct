@@ -24,11 +24,11 @@ Moreover, it is important that this dataset is openly available and allows for c
 
 This will have to be discussed at the hackathon. 
 
-- [-] Simple platform to collect data (already in progess).
-- [] Datacollection. 
-- [] Define a (very) simple benchmark to see what outputs would be considered as _good_ or _bad_.
-- [] Finetuning an LLM (LoRA finetuning, as  this could probably be acheived in the limitted time of the hackathon).
-- [] Review of the model.
+- [x] Simple platform to collect data (already in progess).
+- [ ] Datacollection. 
+- [ ] Define a (very) simple benchmark to see what outputs would be considered as _good_ or _bad_.
+- [ ] Finetuning an LLM (LoRA finetuning, as  this could probably be acheived in the limitted time of the hackathon).
+- [ ] Review of the model.
 
 # Available Data
 
