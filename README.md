@@ -27,7 +27,7 @@ This will have to be discussed at the hackathon.
 - [x] Simple platform to collect data (already in progess).
 - [ ] Datacollection. 
 - [ ] Define a (very) simple benchmark to see what outputs would be considered as _good_ or _bad_.
-- [ ] Select suitable LLM to finetune (Dolly 2.0, Pythia, GPT-J or FLAN-T5) 
+- [ ] Select suitable LLM to finetune (Dolly 2.0, Pythia, T0pp or FLAN-T5) 
 - [ ] Finetuning an LLM (LoRA finetuning, as  this could probably be acheived in the limitted time of the hackathon and wouldn't need expensive hardware).
 - [ ] Review of the model.
 
