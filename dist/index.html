@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Legal Instruct Pitch</title>
+
+		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/reveal.css">
+		<link rel="stylesheet" href="dist/theme/black.css">
+		<link rel="stylesheet" href="styles.css"
+
+		<!-- Theme used for syntax highlighted code -->
+		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section>
+					<h2>
+					Legal Instruct Dataset<br><span style="font-weight: bolder" class="rainbow">The Pitch</span>
+					</h2>
+				</section>
+				<section
+					data-auto-animate
+          			data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h1>🐘</h1>
+				</section>
+				<section
+					data-auto-animate
+          			data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h1>🐘</h1>
+					<h2 style="text-transform: none;">ChatGPT</h2>
+				</section>
+				<section
+					data-auto-animate
+          			data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h1>🐘</h1>
+					<h2 style="text-transform: none;">ChatGPT</h2>
+					<h3 style="color: gray;">A Perfect Match for Legal?</h3>
+				</section>
+				<section id="typewriter-slide">
+					<h3 style="text-transform: none;">ChatGPT on product liability law</h3>
+					<pre class="typewriter-text" style="text-align: left;">
+In der Schweiz sind die Haftungsregelungen und die Produkthaftungsrecht in verschiedenen Gesetzesartikeln im Schweizerischen Zivilgesetzbuch (ZGB) geregelt.
+Art. 41 ZGB besagt, dass jede Person, die einen Schaden verursacht, verpflichtet ist, diesen zu ersetzen.
+Art. 42 ZGB besagt, dass jede Person, die einen Schaden verursacht, weil sie eine Verletzung von Pflichten aus einem Vertrag oder aus einer unerlaubten Handlung begangen hat, verpflichtet ist, diesen zu ersetzen.
+Art. 43 ZGB besagt, dass jede Person, die einen Schaden verursacht, weil sie eine Verletzung von Pflichten aus einer gesetzlichen Anordnung begangen hat, verpflichtet ist, diesen zu ersetzen.</pre>
+				</section>
+				<section>
+					<h3>Luckily the Open-Source Community is (very) active:</h3>
+					<p>
+						On 🤗 alone, there are 10'856 amazing open source text-generating LLMs that can be finetuned.
+					</p>
+				</section>
+				<section data-auto-animate
+				data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h3>So what do we need?</h3>
+				</section>
+				<section data-auto-animate
+				data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h3>So what do we need?</h3>
+					<h1>DATA!</h1>
+				</section>
+				<section data-auto-animate
+				data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)">
+					<h3>What would be even better?</h3>
+					<h1 class="rainbow">Legal INSTRUCTION</h1>
+					<h1>DATA!</h1>
+				</section>
+				<section>
+					<h1>🚀</h1>
+					<h3>Let's work on this together and finetune the first generative legal LLM for Swiss Lawyers!</h3>
+				</section>
+			</div>
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+			// More info about initialization & config:
+			// - https://revealjs.com/initialization/
+			// - https://revealjs.com/config/
+			Reveal.initialize({
+				hash: true,
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
+			});
+			function initTypewriterAnimation(slideId) {
+				const slideElement = document.getElementById(slideId);
+				const textElement = slideElement.querySelector(".typewriter-text");
+				const text = textElement.textContent;
+
+				let lineNumber = 0;
+				let i = 0;
+				let newText = "";
+				let delayFactor = 0;
+
+				function typeLine() {
+					if (lineNumber < text.length) {
+						if (text[lineNumber] === "\n") {
+						newText += text[lineNumber];
+						lineNumber++;
+						delayFactor = 0;
+						} else {
+						newText +=
+							"<span class='typewriter" + (lineNumber === text.length - 1 ? " last" : "") + "'>" +
+							text[lineNumber] +
+							"</span>";
+						lineNumber++;
+						delayFactor = 1;
+						}
+						textElement.innerHTML = newText;
+						setTimeout(typeLine, 30 * delayFactor);
+					}
+				}
+
+				return typeLine;
+			}
+
+			Reveal.on("slidechanged", function (event) {
+				const slideId = "typewriter-slide";
+				const slideElement = document.getElementById(slideId);
+
+				if (event.currentSlide === slideElement) {
+					const typeLine = initTypewriterAnimation(slideId);
+					typeLine();
+				}
+			});
+
+		</script>
+	</body>
+</html>
