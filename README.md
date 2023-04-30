@@ -28,7 +28,7 @@ This will have to be discussed at the hackathon.
 - [ ] Datacollection (including possibilities of automatically creating instructions from existing data). 
 - [ ] Define a (very) simple benchmark to see what outputs would be considered as _good_ or _bad_.
 - [ ] Select suitable LLM to finetune ([Camel 5B](https://huggingface.co/Writer/camel-5b-hf), [Dolly 2.0](https://huggingface.co/databricks/dolly-v2-7b), [Open Assistant (Pythia base)](https://huggingface.co/OpenAssistant), [T0pp](https://huggingface.co/bigscience/T0pp) or [FLAN-ul2](https://huggingface.co/google/flan-ul2)) 
-- [ ] Finetuning an LLM (LoRA finetuning, as  this could probably be acheived in the limitted time of the hackathon and wouldn't need expensive hardware).
+- [ ] Finetuning an LLM ([LoRA finetuning](https://replicate.com/blog/fine-tune-alpaca-with-lora), as  this could probably be achieved in the limitted time of the hackathon and wouldn't need expensive hardware).
 - [ ] Review of the model.
 
 # Available Data
